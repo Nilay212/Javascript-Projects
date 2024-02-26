@@ -33,7 +33,7 @@ nav a {
 
 nav a[aria-current="page"] {
   color: #000;
-  background-color: red;
+  background-color: #d4d4d4;
 }
 
 main {
@@ -43,6 +43,7 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .projects {
