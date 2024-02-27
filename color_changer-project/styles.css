@@ -3,6 +3,7 @@ html {
 }
 span {
   display: block;
+  cursor: pointer;
 }
 
 .canvas {
@@ -40,6 +41,6 @@ span {
 #violet {
   background: violet;
 }
-#black {
-  background: black;
+#red {
+  background: red;
 }
