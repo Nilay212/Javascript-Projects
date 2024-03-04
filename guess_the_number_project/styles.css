@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+div {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+#rule h2 {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#subt {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#subt:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.result p {
+  margin: 5px 0;
+}
+
+#newGame {
+  background-color: red; /* Blue new game button */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#newGame:hover {
+  background-color: darkred; /* Darker blue on hover */
+}
