@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #3498db; /* Blue button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+#start {
+  background-color: #27ae60; /* Green start button color */
+}
+
+#start:hover {
+  background-color: #218c53; /* Darker green on hover */
+}
+
+#stop {
+  background-color: #e74c3c; /* Red stop button color */
+}
+
+#stop:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the space between buttons */
+}
